@@ -1,0 +1,107 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.main{
+    background-image: url(/images/technology/background-technology-desktop.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    padding: 0;
+    nav{
+        .logo{
+            display: flex;
+            flex: 1;
+            margin-left: 50px;
+        }
+        ul{
+            padding: 30px;
+            display: flex;
+            flex: 1;
+            background-color: rgb(19, 21, 34);
+            li{
+                list-style: none;
+                padding-right: 30px;
+                a{
+                    font-weight: 100;
+                    text-decoration: none;
+                    color: white;
+                    font-size: 1.2em;
+                    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                    span{
+                        font-weight: 700;
+                    }
+            }
+        }
+    }
+}
+.content{
+    .first_row{
+        .text{
+            margin-top: 50px;
+            color: rgb(242, 244, 248);
+            h3{
+                margin-top: 10px;
+                font-weight: 300;
+                text-transform: uppercase;
+                letter-spacing: 2px;
+                span{
+                    color: rgb(115, 114, 114);
+                    font-weight: 500;
+                }
+            }
+            .second_row{
+                margin-top: 100px;
+                .anchor{
+                    display: flex;
+                    flex-direction: column;
+                    a{
+                        text-decoration: none;
+                        color: white;
+                        height: 80px;
+                        width: 80px;
+                        border: 1px solid white;
+                        border-radius: 50%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        margin: 10px;
+                        span{
+                            font-size: 2em;
+                        }
+                    }
+                }
+                .para_main{
+                    margin-top: 10px;
+                    .para{
+                        text-transform: uppercase;
+                        font-size: 0.9em;
+                        color: rgb(184, 185, 204);
+                        letter-spacing: 2px;
+                    }
+                    h1{
+                        text-transform: uppercase;
+                        font-size: 3.7em;
+                        font-weight: 300;
+                        font-family: 'Times New Roman', Times, serif;
+                    }
+                    p{
+                        font-size: 1em;
+                        color: rgb(184, 185, 204);
+                        margin-right: 120px;
+                    }
+                }
+            }
+        }
+        .image_box{
+            img{
+                margin-top: 110px;
+            }
+        }
+    }
+}
+}

@@ -1,0 +1,82 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    background-image: url(/images/home_images/background-home-desktop.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    padding: 0;
+    overflow: hidden;
+        nav{
+            .logo{
+                display: flex;
+                flex: 1;
+                margin-left: 50px;
+            }
+            ul{
+                background-image: linear-gradient(to right, rgb(19, 21, 34) , rgb(78, 93, 116),rgb(19, 21, 34));
+                padding: 30px;
+                display: flex;
+                flex: 1;
+                opacity: 1;
+                li{
+                    list-style: none;
+                    padding-right: 30px;
+                    a{
+                        padding-bottom: 30px;
+                        font-weight: 100;
+                        text-decoration: none;
+                        color: white;
+                        font-size: 1.2em;
+                        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                        span{
+                            font-weight: 700;
+                        }
+                }
+            }
+        }
+    }
+    .content{
+        margin-top: 200px;
+        .text{
+            margin-left: 250px;
+            margin-right: 250px;
+            p{
+                color: white;
+                font-size: 1.8em;
+                font-weight: 100;
+                font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            }
+            h1{
+                color: white;
+                font-size: 10em;
+                text-transform: uppercase;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+            }
+            .para{
+                font-size: 1.3em;
+                font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            }
+        }
+        .explore{
+            margin-top: 180px;
+            a{
+                text-decoration: none;
+                color: rgb(48, 47, 47);
+                background-color: white;
+                padding: 160px 100px 160px 100px;
+                border-radius: 50%;
+                font-size: 2.5em;
+                text-transform: uppercase;
+                font-weight: 300;
+                letter-spacing: 2px;
+            }
+        }
+    }
+}
+    

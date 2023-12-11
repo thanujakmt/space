@@ -1,0 +1,105 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.main{
+    background-image: url(/images/crew/background-crew-desktop.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    padding: 0;
+    nav{
+        .logo{
+            display: flex;
+            flex: 1;
+            margin-left: 50px;
+        }
+        ul{
+            background-image: linear-gradient(to right,rgb(47, 51, 61),rgb(15, 18, 28),rgb(47, 51, 61));
+            padding: 30px;
+            display: flex;
+            flex: 1;
+            opacity: 0.7;
+            li{
+                list-style: none;
+                padding-right: 30px;
+                a{
+                    font-weight: 100;
+                    text-decoration: none;
+                    color: white;
+                    font-size: 1.2em;
+                    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                    span{
+                        font-weight: 700;
+                    }
+            }
+        }
+    }
+}
+.content{
+    .carousel{
+        .carousel-indicators{
+            // border: 2px solid white;
+            display: flex;
+            justify-content: flex-start;
+            // margin-top: -150px;
+            button{
+                width: 15px;
+                height: 15px;
+                border-radius: 50%;
+                
+            }
+        }
+    }
+    .first_row{
+        margin-top: 50px;
+        margin-bottom: 50px;
+        .text{
+            // border: 1px solid white;
+            margin-left: 100px;
+            .single_P{
+                color: white;
+                margin-bottom: 100px;
+                text-transform: uppercase;
+                font-size: 1.2em;
+                letter-spacing: 2px;
+                span{
+                    color: rgb(117, 115, 115);
+                    font-weight: 900;
+                }
+            }
+            h3{
+                text-transform: uppercase;
+                font-weight: 300;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                color: rgb(82, 86, 95);
+            }
+            h1{
+                color: white;
+                font-size: 3em;
+                text-transform: uppercase;
+                font-weight: 300;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+            }
+            .para{
+                color: rgb(120, 125, 145);
+                margin-right: 100px;
+                padding: 10px 10px 10px 0px   ;
+            }
+        }
+        .image{
+            margin-right: 100px;
+            // border: 1px solid white;
+            img{
+                width: 500px;
+                height: 500px;
+                margin-top: 90px;
+            }
+        }
+    }
+}
+}
